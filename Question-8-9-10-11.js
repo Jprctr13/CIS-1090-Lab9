@@ -1,7 +1,6 @@
 import colors from 'colors';
 import dictionary from './dictionary.js';
 
-console.log(dictionary);
 const text = "The quick brown fox jermps over the lazy dog";
 
 function lowercase(word){
@@ -29,8 +28,9 @@ words = words.map( function(word){
         return word.red;
     }
 });
+
 //❓ LAB QUESTION 10:
 
 
 let result = words.join();
-//❓ LAB QUESTION 11:
+console.log(result);
